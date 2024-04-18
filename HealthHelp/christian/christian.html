@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Infy App Challenge Designer</title>
+<link href="christian.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+</head>
+<body onload="brython()">
+<a href="pytest1.html">TESTING PYTHON ON HTML</a>
+<script type="text/python">
+from browser import document
+from browser.widgets.dialog import InfoDialog
+
+def click(ev):
+  InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to function echo
+document ["echo"].bind("click", click)
+</script>
+<input id="zone">
+<button id = "echo">click !</button>
+</body>
+    
+<body>
+<div class="banner">
+<img src="chris.png" id="profileIcon">
+<a href= "https://InfyAppChallenge-PPPython22-23-4.pppython22-23.repl.co">Home</a>
+<h1>Thomas A. Edison CTE HS</h1>
+<h2>Infy App Challenge</h2>
+<h4>Spring 2023</h4>
+<h3>Role's Landing Page</h3>
+</div>
+<div class="container">
+<div class="leftDiv">
+<h2>About Me</h2>
+<hr>
+<p>My name is Christian Monzon and I am a Junior at Thomas A. Edison CTE High School. My role in this group is to research and collaborate with my teammates to create an app that focuses on health. The social issue we are tackling is the issue of healthcare. Healthcare is usually not accesible to everyone in the world which should be a basic right. Our app helps inform people about their health and how to take care of other's health.</p>
+</div>
+<div class="rightDiv">
+<div class="wave">
+<h1>Health Help</h1>
+<hr>
+<table>
+<th>Mentor</th>
+<th>Teammates</th>
+<tr>
+<td>Mentor Name</td>
+<td>Team members names</td>
+</tr>
+<tr>
+<a href="https://www.figma.com/proto/Ank8ZdQ8XQkWkw9CQuNvbz/mockup?node-id=20%3A469&scaling=scale-down&page-id=0%3A1&starting-point-node-id=20%3A469">Wireframe</a>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

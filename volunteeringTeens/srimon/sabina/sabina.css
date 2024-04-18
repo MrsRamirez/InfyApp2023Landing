@@ -1,0 +1,90 @@
+html, body{
+	height: 99%;
+	width: 99%;
+	background-color: white;
+	
+}
+
+
+*{
+	box-sizing: border-box;
+}
+.banner{
+	z-index: 0;
+	background-color: rgba(255, 0, 0, 1);
+	border: 2px double #ffadd5;
+	box-shadow: 0px 3px 10px 5px #ff85c0;
+	position: relative;
+	margin: 15px;
+	padding: 10px;
+	text-shadow: 1px 1px black;
+	height: 240px;
+}
+#profileIcon{
+	z-index: 1;
+	position: absolute;
+	top: 80px;
+	right: 300px;
+	margin: 20px;
+	width: 60px; 
+	border: 1px dotted #000000;
+	border-radius: 100px;
+	
+}
+.container{
+	background-image: linear-gradient(#ff0000, black);
+	border: 2px white dotted;
+	position: relative;
+	top: 3px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+}
+.leftDiv{
+	position: absolute;
+	left: 5px;
+	width: 50%;
+	
+}
+.rightDiv{
+	position: absolute;
+	right: 5px;
+	width: 50%;
+	
+}
+.wave{
+	border: white 1px solid;
+	color: black;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 1);
+	font-size: 1em;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 95%;
+	position: relative;
+	left: 10%;
+	transition: height 6s;
+	display: block;
+	
+}
+h1{
+	font-size: 0.9em;
+	color: black;
+}
+h2{
+	color: black;
+	font-size: 0.9em;
+}
+h3{
+	color: black;
+}
+h4{
+	color: black;
+}
+.wave:hover{
+	height: 800px;
+	top: 1px;
+	z-index: 1;
+}

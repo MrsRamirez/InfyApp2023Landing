@@ -1,0 +1,73 @@
+html, body{
+	height: 99%;
+	width: 99%; 
+	background-color:#66545e ;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.banner{
+	z-index:0 ; 
+	background-color: #a39193;
+	border: 2px double #66545e;
+	box-shadow: 0px 3px 10px 5px #303030ee;
+	position: relative; 
+	margin: 15px; 
+	padding: 10px; 
+	text-shadow: 1px 1px black
+	height: 240px; 
+}
+
+#profileIcon{
+	z-index: 1;
+	position: absolute;
+	top: 80px; 
+	right:320px; 
+	margin:20px; 
+	width:60px; 
+	border-radius: 50px;
+}
+
+.container{
+	background-color:  #9a8d90;
+	border: 2px #dfdddd solid; 
+	position: relative;
+	top: 3px; 
+	margin: 15px;
+	padding: 10px; 
+	height: 700px;
+	overflow: hidden; 
+}
+
+.leftDiv{
+	position: absolute;
+	left: 5px; 
+	width: 50%; 
+}
+.rightDiv{
+	position: absolute; 
+	right: 5px;
+	width: 50%; 
+} 
+.wave{
+	border:#66545e 1px solid; 
+	color: black; 
+	text-align: center; 
+	background-color:#EADDCA;
+	font-size: 1em; 
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 90%; 
+	position: relative; 
+	left: 5%; 
+	transition: height 6s;
+	display: block; 
+} 
+.wave:hover{
+	height:90%; 
+	top: 1px; 
+	z-index: 1;
+}

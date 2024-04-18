@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+	
+</head>
+<body onload="brython()">
+<script type="text/python">
+#import
+from browser import document, html
+from browser.widgets.dialog import InfoDialog
+#code
+document <= "Hello Amazing People"
+document['zone1'] <= html.H1("this is Brython")
+document['zone1'] <= html.I("isn't this fun?")
+def click(ev):
+		InfoDialog("Hello", f"hello, {document['zone'].value} !")
+
+#bind the event'click on the button to the echo
+document["echo"].bind("click", click)
+</script>
+<p id='zone1'>ORIGINAL</p>
+<input id="zone">
+<button id="echo">Click ! </button>
+
+	<div>
+<!-- content that you did beofre-->
+		<!--App container-->
+		
+	</div>
+</body>

@@ -1,0 +1,90 @@
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <title>Infy App Challenge Role: UX Designer</title>
+  <link href="Zaza.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+  </head>
+      <body>
+<body onload="brython()">
+  <a href="pytest.html"> TESTING PYTHON ON HTML</a>
+<script type="text/python">
+from browser import document
+from browser .widgets .dialog import InfoDialog 
+def click(ev):
+    InfoDialog("Hello", f"Hello, {document['zone'].value}!")
+#bind event 'click' on button to function echo 
+document["echo"].bind("click", click)
+      
+  </script>
+<input id="zone">
+<button id="echo">click !</button>
+  
+ 
+</head>
+
+  <a href="/index.html"> HOME </a>
+  <div class="banner">
+    <img src="zaza1.jpg" id="profileIcon">
+    <h1>Thomas A. Edison CTE High School</h1>
+    <h2>Infy App Challenge</h2>
+    <h4>Spring 2023</h4>
+    <h3>Role's Landing Page</h3>
+  </div>
+  <div class="container">
+    <div class="leftDiv">
+      <h2>About Me</h2>
+      <hr>
+      <p>Write about yourself and your role in the team and why the social issue topic is important to you. My name is
+        Zainab Majidi and I am 17 years old. In this app project, I hope to contribute in several ways including making
+        the app pleasing to the audience through colors,designs but also making sure it offers several other beneficial
+        programs including the journal and chat room. <br><br>
+        Within this project, my role is labeled as a UI designer otherwise knwon as the User Interface Designer which
+        deals with the look of the app such as what colors, fonts, icons, will be utilized to attract people to our app.
+        Being the UI designer does not mean I'm limited to just dealing with the appearance of the app, however, this is
+        the main role I will be taking on. At the end of the making of this app, I hope to gain a lot of skills and be
+        able to satisfy the target users.
+      </p>
+    </div>
+    <div class="rightDiv">
+      <div class="wave">
+        <h1>Safe-Gen</h1>
+        <hr>
+        <center>
+          <div class="zaza">
+            <h1>Safe-Gen</h1>
+          </div>
+          <table>
+            <th>Mentor</th>
+            <th>Teammates</th>
+            <tr>
+              <td>Sandeep Misra</td>
+              <td>Kevin</td>
+            </tr>
+            <tr>
+              <td>Mark Lohse-Miranda</td>
+              <td>Zainab</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Faria</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Jacqueline</td>
+            </tr>
+            <tr>
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjX6CbssNv1CeIeT6EOdCh4%2FUntitled%3Fnode-id%3D60%253A2%26t%3DZjDxuqH1RNMEL1sE-1"
+                allowfullscreen></iframe>
+            </tr>
+          </table>
+      </div>
+    </div>
+  </div>
+
+</html>

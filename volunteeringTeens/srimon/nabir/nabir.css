@@ -1,0 +1,94 @@
+html, body{
+	height: 99%;
+	width: 99%;
+	background-color: #635985;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.banner {
+	z-index: 0;
+	background-color: rgba(255,255,255,0.03);
+	border: 2px double #000000;
+	box-shadow: 0px 3px 10px 5px #966cac;
+	position: relative;
+	margin: 15px;
+	padding: 10px;
+	text-shadow: 1px 1px #a8a8a8;
+	height: 250px;
+}
+
+#profileIcon{
+	z-index: 1px;
+	position:absolute;
+	top: 80px;
+	right:320px;
+	margin:20px;
+	width:60px;
+	border-radius: 100%;
+	
+}
+
+.container{
+	background-image: linear-gradient(#8d8ccf,#9889c8);
+	border: 2px #3e0404 solid;
+	position: relative;
+	top: 3px; 
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	
+}
+
+.leftDiv{
+	position: absolute;
+	left: 5px;
+	width: 50%;
+	
+}
+
+.rightDiv{
+	position: absolute;
+	right: 5px;
+	width: 50%;
+}
+
+.wave{
+	border: darkblue 1px solid;
+	color: #1f1f1f;
+	text-align: center;
+	background-color: #c2c3db;
+	font-size: 1em;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 95%;
+	position: relative;
+	left: 10%;
+	transition: height 6s;
+	display: block;
+	
+}
+
+h1{
+	font-size: 0.9em;
+	color: #e5e5ff;
+}
+
+h2{
+	color: #e5e5ff;
+	font-size: 0.9em;
+}
+
+h3{
+	color: #e5e5ff;
+	font-size: 1.2em;
+}
+
+h4{
+	color: #e5e5ff;
+	font-size: 1.0em;
+}

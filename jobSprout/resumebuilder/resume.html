@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" type="text/css" href="resumestyle.css">
+  </head>
+  <body>
+    <div class="container">
+      <img src="applogo.png" alt="Logo" class="logo">
+      <div class="content-container">
+        <h1>Resume Grower</h1>
+        <form id="resumeForm">
+          <div class="input-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="linkedin">LinkedIn:</label>
+            <input type="text" id="linkedin" name="linkedin" required>
+
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" required></textarea>
+
+            <label for="experience">Professional Experience:</label>
+            <textarea id="experience" name="experience" required></textarea>
+
+            <label for="volunteer">Volunteer Experience:</label>
+            <textarea id="volunteer" name="volunteer" required></textarea>
+          </div>
+		<script> 
+			function displayresume() {
+		var newwindow = window.open();
+		newwindow.document.write(resumeoutput)
+	}
+		</script> 
+          <button id = "resumefinal"type="button">Generate Resume</button>
+	
+        </form>
+      </div>
+      <div class="side-content">
+       
+      </div>
+    </div>
+		
+
+    <script src="resumejs.js"></script>
+  </body>
+</html>

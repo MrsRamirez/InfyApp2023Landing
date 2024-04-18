@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Sprout</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="applogo.png">
+  <style>
+    #jobSproutLink {
+			color: #fff;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#jobSproutLink").click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: $("#googleSlide").offset().top
+        }, 800);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="afsana/afsana.html">Afsana</a></li>
+        <li><a href="arisa/arisa.html">Arisa</a></li>
+        <li><a href="caiyel/caiyel.html">Caiyel</a></li>
+        <li><a href="diego/diego.html">Diego</a></li>
+        <li><a href="jiaxin/jiaxin.html">Jiaxin</a></li>
+      </ul>
+    </div>
+  </nav>
+<br>
+  <div class="header">
+    <div class="container">
+      <h1><a href="#googleSlide" id="jobSproutLink">Job Sprout</a></h1>
+      <p>Empowering the Youth for a Bright Future</p>
+      <p>Grow Your Resume Below</p>
+      <a href="resumebuilder/resume.html" class="btn" target="_blank">Get Started!</a>
+    </div>
+  </div>
+
+  <center>
+    <p>For a better view <a href="https://www.figma.com/proto/KjtJxdevY1Q0oiBAmyqx5c/Job-Sprout!?type=design&node-id=2-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1" target="_blank">Click Here!</a></p>
+    <!-- Figma -->
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="960" height="569"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKjtJxdevY1Q0oiBAmyqx5c%2FJob-Sprout!%3Ftype%3Ddesign%26node-id%3D2-2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A2%26show-proto-sidebar%3D1"
+      allowfullscreen></iframe>
+    <!-- Google Slide -->
+    <div id="googleSlide">
+      <iframe
+        src="https://docs.google.com/presentation/d/e/2PACX-1vQ26SbBNJP8HyodjSI4fYBcMeXAOud7ueZ_J0uail0BwMMYxhkU3YHPeQ4UDGru_rq_QDWHXaAKUii6/embed?start=false&loop=false&delayms=3000"
+        frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+        webkitallowfullscreen="true"></iframe>
+    </div>
+  </center>
+
+
+  <section class="about-section">
+    <div class="container">
+      <h2>About Us: </h2>
+      <h2 style="color: #71b85e;">Team Sapling</h2>
+      <p>At Job Sprout, we believe in empowering the youth and nurturing their potential by providing them with the
+        tools and opportunities to build a bright future. Our mission is to connect young individuals with meaningful job
+        opportunities that enable them to grow, learn, and thrive in their chosen career paths.</p>
+      <p>We understand that finding the right job and charting a successful career path can be challenging, especially
+        for young people just starting out. That's why we created Job Sprout - a comprehensive app designed to assist and
+        support youth in their journey towards a fulfilling and prosperous professional life.</p>
+    </div>
+  </section>
+
+  <section class="app-section">
+    <div class="container">
+      <h2>Our App</h2>
+      <p>Job Sprout is a revolutionary mobile application specifically tailored to help young individuals find jobs,
+        connect with valuable opportunities, create compelling resumes, and discover their true career potential.
+        Whether you're a student searching for a part-time job, a recent graduate seeking your first professional role,
+        or someone looking to explore new career avenues, Job Sprout has got you covered.</p>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Job Sprout. Thomas A. Edison CTE High School.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+html,body{
+	height:99%;
+	width:99%;
+	background-color:#492060;
+}
+*{
+	box-sizing:border-box;
+}
+.banner{
+	z-index:0;
+	background-color:#a47ea9;
+	border:2px double #010404;
+	box-shadow: 0px 3px 10px 5px #a784a9ee;
+	position:relative;
+	margin:15px;
+	padding:10px;
+	text-shadow:1px 1px #a168b1;
+	height:240px;
+}
+#ProfileIcon{
+	z-index:1;
+	position:absolute;
+	top:60px;
+	right:320px;
+	margin:20px;
+	width:80px;
+	border:1px solid #3b0d45;
+	border-radius:50;
+}
+.container{
+  background-image: radial-gradient(#a486b1, #dbc2da) ;
+	border: 2px #141515 solid;
+  position: relative;
+  top: 3px;
+  margin: 15px;
+  padding: 10px;
+  height: 700px;
+  overflow: hidden;
+}
+.leftDiv{
+	position:absolute;
+  left: 5px;
+  width:50%
+}
+.rightDiv{
+  position:absolute;
+  right: 5px;
+  width: 50%;
+	
+}
+.wave{
+  border: #080808 1px solid;
+  color: #9c7db5;
+  text-align: center;
+  background-color: #a47ea9;
+  font-size: 1em;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  transition: height 6s;
+  display: block;
+  height:10px;
+	
+}
+h1{
+  font-size: 0.9em;
+  color:#672c7d ;
+  
+}
+h2{
+  font-size: 0.9em;
+  color:#553460;
+}
+.wave:hover{
+  height: 90%;
+  top: 1px;
+  z-index: 1;
+}

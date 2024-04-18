@@ -1,0 +1,82 @@
+
+html, body{
+	height: 99%;
+	width: 99%;
+	background-color: #f9d3e0;
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	z-index: 0;
+	background-color: rgba(45,55,65,0.03);
+	border: 2px double #f4a4c0;
+	box-shadow: 0px 3px 10px 5px #ed719e;
+	position: relative;
+	margin: 15px;
+	padding: 10px;
+	text-shadow: 1px 1px black;
+	height: 240px;	
+}
+
+#profileIcon{
+	z-index: 1;
+	position: absolute;
+	top:80px;
+	right: 320px;
+	margin: 20px;
+	width:100px;
+	border: 1px solid black;
+	border-radius: 100%;	
+}
+
+.container{
+	background-image: linear-gradient(#fff2d5,#ffe4a8);
+	border: 2px #3e0404 solid;
+	position: relative;
+	top: 3px; 
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	
+}
+
+
+.leftDiv{
+	position:absolute;
+	left:5px;
+	width:50%;
+	
+}
+
+.rightDiv{
+	position:absolute;
+	right:5px;
+	width:50%;
+	
+}
+
+.wave{
+	border:#ff8c82 1px solid;
+	color:white;
+	text-align: center;
+	background-color: #a39193;
+	font-size:1em;
+	overflow:hidden;
+	overflow-x:hiiden;
+	overflow-y:suto;
+	width:95%;
+	position: relative;
+	left:5%;
+	transition: height 6s;
+	display: block;
+	height:100%;
+	
+	
+}
+
+.wave:hover{
+height:90%;
+top:1px;
+z-index:1;
+}

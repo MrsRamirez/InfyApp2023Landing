@@ -1,0 +1,104 @@
+body {
+  background-color: #f5f5dc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: beige;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  max-width: 20em;
+  margin-bottom: .5em;
+}
+
+h1 {
+  color: #006400;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: left;
+}
+
+.label-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  flex: 1;
+  margin-top: 10px;
+  color: #006400;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #006400;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004f00;
+}
+
+button:active {
+  background-color: #004f00;
+  transform: translateY(1px);
+}
+
+.resume-output {
+  text-align: left;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: beige;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.resume-output h2 {
+  color: #006400;
+  margin-top: 0;
+}
+
+.resume-output p {
+  margin-bottom: 20px;
+  color: #2f4f4f;
+}
+
+.resume-output a {
+  color: #006400;
+  text-decoration: none;
+}
+
+.resume-output a:hover {
+  text-decoration: underline;
+}

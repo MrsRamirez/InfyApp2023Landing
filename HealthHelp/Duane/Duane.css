@@ -1,0 +1,76 @@
+html, body{
+	height: 99%;
+	width: 99%;
+	background-color: #72acbb;
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	z-index:0;
+	background-color:palegoldenrod;
+	border:2px double navy;
+	box-shadow:0px 3px 10px 5px ghostwhite; 
+	position:relative;
+	margin: 15px;
+	padding: 10px;
+	text-shadow: 1px 1 px black;
+	height: 240px;
+} 
+#profileIcon{
+	z-index: 1;
+	position: absolute;
+	top:80 px;
+	right: 320px;
+	margin:20px;
+	width: 60px;
+	border-radius: 150px;
+}
+.container{
+	background-image: linear-gradient(#007bff,#8ecbf0);
+	border:2px navy solid;
+	position: relative;
+	margin: 15px;
+	padding: 10px;
+	height:700px;
+	overflow:hidden;
+} 
+.leftDiv{
+	position:absolute;
+	left: 5px;
+	width:50%;
+}
+.rightDiv{
+	position:absolute;
+	right: 5px;
+	width:50%;
+}
+.wave{
+	border:#B3E5FC;
+	color: blueviolet;
+	text-align: center;
+	background-color:#B0E0E6;
+	font-size: 1em;
+	overflow:hidden;
+	overflow-x:hidden;
+	overflow-y:auto;
+	width:90%;
+	position: relative;
+	left:5%;
+	transition: height 6s;
+	display: block;
+	height:100px;
+}
+h1{
+	font-size:0.9em;
+	color: darkorange; 
+}
+h2{
+	color:#007780;
+}
+.wave:hover{
+	height:90%;
+	top:1px;
+	z-index:1;
+	display:block;
+}

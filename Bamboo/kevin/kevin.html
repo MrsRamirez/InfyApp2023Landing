@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Infy App Challenge Role: UX Designer</title>
+		<link href="kevin.css" rel="stylesheet" type="text/css"/>
+		<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+  </head>
+<body onload="brython()">
+	<a href="pytest1.html">Testing</a>
+<script type="text/python">
+from browser import document
+from browser.widgets.dialog import InfoDialog 
+	
+def click(ev):
+	InfoDialog("Hello", f"Hello, {document['zone'].value}!")
+#bind event 'click' on button to function echo 
+document["echo"].bind("click", click)
+</script>
+<input id="zone">
+<button id="echo">click !</button>
+</body>
+   <a href = "/index.html"> HOME </a>
+		<div class="banner">
+			<img src="image0.png" id="profileIcon">
+			<h1>Thomas A. Edison CTE High School</h1>
+			<h2>Infy App Challenge</h2>
+			<h4>Spring 2023</h4>
+			<h3>UX Designer's Landing Page</h3>
+		</div>
+		<div class="container">
+			<div class="leftDiv">
+				<h2>About Me</h2>
+				<hr>
+				<p>My name is Kevin Castillo, I'm currently in 11th grade and my current role in the team is a UX Designer , I'll focus on the programming part of the app and I'll still help with the UI design too. The social issue we are focusing on is mental health since many students are struggling with their mental health. We are trying to create an app that will help those issues with mental health find healthly ways to cope. The features for app that we want is some sort of chat feature so people are able to commuicate with each other , we will try add age limits so there isn't problems. </p>
+								<a href="https://infyappchallenge-pppython22-23.pppython22-23.repl.co/">Homepage</a>
+			</div>
+			<div class="rightDiv">
+				<div class="wave">
+					<center>
+					<div class="mew">
+						<h1>Safe-Gen</h1>
+					</div>
+					<hr>
+					<table>
+						<th>Mentor</th>
+						<th>Teammates</th>
+						<tr>
+							<td>Mark Lohse-Miranda, Sandeep Misra</td>
+							<td>Jacqueline,Shaila,Zainab,Faria</td>
+						</tr>
+						<tr>
+							</center>
+							<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="550" height="550" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWH8xuh9MO9Y3PvcswMaI0w%2FSafe-Gen%3Fnode-id%3D67%253A287%26scaling%3Dscale-down%26page-id%3D67%253A226%26starting-point-node-id%3D67%253A287" allowfullscreen></iframe>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

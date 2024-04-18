@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Inffy App Challenge Role: Designer </title>
+		<link href="hamida.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+		</script>
+	</head>
+	<body onload="brython()">
+		<a href ="pytest.html"> TESTING PYTHON ON HTML</a>
+<script type="text/python">
+	#this is import section
+from browser import document
+from browser.widgets.dialog import InfoDialog
+#this is code to run
+def click(ev):
+  InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to function echo
+document["echo"].bind("click", click)
+</script>
+	
+<input id="zone">
+<button id="echo">click !</button>
+		
+		<div class="banner">
+			<img src="hamida.png" id="profileIcon">
+			<h1>Thomas A. Edison CTE High School</h1>
+			<h2>Inffy App Challenge</h2>
+			<h4>Spring 2023</h4>
+			<h3>Designer's Landing Page</h3>
+			<a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co">Home</a>
+		</div>
+		<div class="container">
+			<div class="leftDiv">
+				<h2>About me</h2>
+				<hr>
+				<p> My name is <strong>Hamida Tania</strong> and I am a eleventh grader at Thomas A. Edison CTE Highs school. In our team my role is to work with my teammates to come up with solutions and ideas for our social issue app. I also help with designing. Our social issue are community issues such as poverty. We plan on solving our community issue by creating community service volunteer oppurtunities. This way we can solve community issues while high schoolers are also able to recieve volunteer oppurtunties. One of our features in our app is a way for users who are in need of clothes to request for donations. They are able to look at each piece of clothe as if it was an online store and even filter to their size. I understand that poverty is a complex issue and cannot be solved by a single solution. Our app seeks to provide a range of services to help people in need.We hope to inspire others to take action and join us in our efforts to make the world a better place!
+				</p>
+				<a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co">Home</a>
+			</div>
+		
+			<div class="rightDiv">
+				<div class="wave">
+					<h1>Volunteering Teens</h1>
+					<hr>
+					<table>
+						<tr><th>Mentor</th><th>Teammates</th></tr>
+						<tr>
+							<td>Mowoh Mejeck</td>
+							<td><a href="https://6879ae4f-91cb-4458-a9b4-fd128ac393fe.id.repl.co/hamida/hamida.html"> Hamida Tania</a> </td>
+						</tr>
+						<tr>
+							<td>Sam Thomas Nellikkan</td>
+							<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/srimon/srimon.html">Srimon Anida</a> </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/sabina/sabina.html">Sabina Hussain</a> </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/nabir/nabir.html"> Nabir Dehan</a> </td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/john/john.html">John Okroh </a></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href = "https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/christian/christian.html"> Christian Martinez</a></td>
+						</tr>
+						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FM579SOogTIh1QZKPJEecC6%2FHamida-Tania---Volunteering-Teens%3Fnode-id%3D18%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D18%253A27" allowfullscreen></iframe>
+						<tr>
+							<a href="https://www.figma.com/file/M579SOogTIh1QZKPJEecC6/Untitled?node-id=0%3A1&t=8iQUhLOKg8SOqNVE-1">link to figma wireframe</a>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

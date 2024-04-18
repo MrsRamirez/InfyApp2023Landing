@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Designer</title>
+    <link href="christian.css" rel="stylesheet" type="text/css"/>
+  </head>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+ 
+
+<body onload="brython()">
+<script type="text/python">
+from browser import document
+from browser.widgets.dialog import InfoDialog
+#code
+document <= "Hello Amazing People!"
+def click(ev):
+  InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to function echo
+document["echo"].bind("click", click)
+</script>
+<input id="zone">
+<a href="test.html">test</a><button id="echo">click !</button>
+  
+
+    <div class="banner">
+      <img src="christian.jpg" id="profileIcon">
+      <h1>Thomas a. Edison CTE HS</h1>
+      <h2>Infy App Challenge</h2>
+      <h4>spring 2023</h4>
+      <h3>Designer</h3>
+      <a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/">home</a>
+    </div>
+    
+    <div class="container">
+      <div class="leftDiv">
+        <h2> Designer</h2>
+        <hr>
+        <p>My name is christian martinez, Junior  , im a <strong>Designer</strong>in my group, our topic is <i>Student safety.</i> We are designing an app so students can feel <strong>safe</strong> when outside of <strong>Home</strong>, going to and leaving school. I have experience coding and im good at following directions so therefore i am a designer for our team. As a designer, i recieve directions and design the app, add the buttons, colors,etc, i dont come up with them, <i>i just bring them to life.</i></p>
+      </div>
+      <div class="rightDiv">
+        <div class="wave">
+          <h1>The vaulentery teens</h1>
+          <hr>
+          <table>
+            <th>mentor</th>
+            <th>Teammates</th>
+            <tr><td>mentor names</td></tr>
+            <td>John, Hamida, Sabina, Nabir, Srimon</td>
+          </tr>
+            <tr>
+              <a href="https://www.figma.com/file/V2In1F0Mci8IEvWxOzahiA/Wireframe-%2B-Style-Guide?node-id=0%3A1&t=zRUv5ZtFQkJZEnMD-1">Team Wireframe</a>
+              <a href="https://www.figma.com/file/NEyQuwKm7FwVavnIJynq55/Untitled?node-id=1%3A10&t=9bmK8dlg1pYis5Vd-1">Personal Wireframe</a>
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNEyQuwKm7FwVavnIJynq55%2FUntitled%3Fnode-id%3D1%253A19%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A19" allowfullscreen></iframe>
+
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FV2In1F0Mci8IEvWxOzahiA%2FWireframe-%252B-Style-Guide%3Fnode-id%3D0%253A1%26t%3DzRUv5ZtFQkJZEnMD-1" allowfullscreen></iframe>
+            </tr>
+          </table>
+        <div>
+      </div>
+    </div>
+      </div>
+  </body>
+</html>
+
+    

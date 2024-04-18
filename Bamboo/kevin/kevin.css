@@ -1,0 +1,89 @@
+html, body{
+	height: 99%;
+	width: 99%;
+	background-color: #F1F3F8;
+	color:#299959;
+}
+
+*{
+	box-sizing: border-box;
+}
+.banner{
+	z-index: 0;
+	background-color:#1b271e;
+	border: 2px double #000000;
+	position: relative;
+	margin: 15px;
+	padding: 10px;
+	height: 240px
+}
+
+#profileIcon{
+	z-index: 1;
+	position: absolute;
+	top: 20px;
+	right: 320px;
+	margin: 20px;
+	width: 150px;
+	border-radius: 100px;
+}
+
+.container{
+	background-color: #3a5042;
+	border: 2px #000000 solid;
+	position: relative;
+	top: 3px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+}
+
+.leftDiv{
+	position: absolute;
+	left: 5px;
+	width: 50%;
+}
+
+.rightDiv{
+	position: absolute;
+	right: 5px;
+	width: 50%;
+}
+.wave{
+  border: #000000 1px solid;
+  color: #0000;
+  text-align: center;
+  background-color: #6553;
+  font-size: 1em;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  transition: height 6s;
+  display: block;
+  height:10px;
+	
+}
+h1{
+  font-size: 1.5em;
+  color:#fff;
+  
+}
+h2{
+	color:#fff;
+  font-size: 1.3em;
+}
+.wave:hover{
+  height: 90%;
+  top: 1px;
+  z-index: 1;
+}
+.mew{
+	color:black;
+}
+td{
+	color:black;
+}

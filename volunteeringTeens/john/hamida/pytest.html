@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Inffy App Challenge Role: Designer </title>
+		<link href="hamida.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+		</script>
+	</head>
+	<body onload="brython()">
+<script type="text/python">
+from browser import document
+from browser.widgets.dialog import InfoDialog
+
+def click(ev):
+  InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to function echo
+document["echo"].bind("click", click)
+</script>
+	
+<input id="zone">
+<button id="echo">click !</button>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+html, body {
+  height: 99%;
+  width: 99%;
+  font-size: 9 px;
+  font-style: white; 
+}
+html{
+  background-color: darkred;
+  background-size: 1000px;
+}
+*{
+  box-sizing: border-box;
+}
+
+.banner{
+  z-index:0; 
+  background-image: linear-gradient(black, black);
+  border: 9px #483737 solid; 
+  position: relative;
+  margin: 10px;
+  padding: 1px;
+  left: 350px; 
+  text-shadow: 1px 1px #483737;
+  height: 250px;
+  width: 600px;
+  color:white; 
+  
+  
+}
+#profileicon{
+  z-index: 1;
+  position:absolute;
+  top: 80px;
+  right: 320px; 
+  margin: 20px;
+  width: 60px;
+  border-radius: 50px;
+}
+.container {
+  background-image: linear-gradient(white, white);
+  border:9px #483737 solid; 
+  position:relative;
+  top:3px; 
+  margin: 15px;
+  padding: 10px;
+  height: 700px;
+  overflow: hidden;
+  
+}
+.leftDiv{
+	position:absolute;
+  left: 5px;
+  width:50%
+}
+.rightDiv{
+  position:absolute;
+  right: 5px;
+  width: 50%;
+	
+}
+.wave{
+  border:  darkred 1px solid;
+  color: black;
+  text-align:center;
+  background-color: darkred;
+  text-shadow: 0.5px 0.5px black;
+  font-size: 1em;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width:90%;
+  position: relative;
+  left: 5%;
+  transition: height 6s;
+  display:black; 
+}
+.wave:hover{
+  height: 90%;
+  top: 1px;
+  z-index: 1;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="afsana.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+
+</head>
+
+<body onload="brython()">
+<script type="text/python">
+
+#This is the import section
+from browser import document
+from browser.widgets.dialog import InfoDialog
+
+#This is the code to run
+document <= "Hello People"
+
+def click(ev):
+  InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+#bind event 'click' on button to fuction echo
+document ["echo"].bind("click", click)
+</script>
+<input id="zone">
+<button id="echo">Click</button>
+
+<br>
+
+<!---content done before--->     
+ 
+  <div class="banner">
+    <img src="afsana.jpg" id="profileIcon">
+    <h1>Thomas A. Edison CTE HS</h1>
+    <h2>Infy App Challenge </h2>
+    <h4>Spring 2023</h4>
+    <h3>Reasearcher's landing page</h3>
+    <a href="https://infyappchallenge-pppython22-23-2.pppython22-23.repl.co/">Team Page</a>
+  </div>
+  <div class="container">
+    <div class="leftDiv">
+      <h2>About Me</h2>
+      <hr>
+      <p> I am Afsana Haque and I'm currently a junior at Thomas A. Edison CTE High School. For the app challenge my role on the team sampling is currently a <strong>researcher</strong>. The social change of youth employment is important to me because as a teen myself I find employment a difficult field. I found it difficult myself to find a job and to gain experience, I also know many other people feel the same way and struggle with employment. My role of being researcher will be to find ways that many teens currently struggle with unemployment and help them generate resumes that will ultimately make the process more exhilirating. My goal is to help making the process of finding a job for people of youth easier and more efficient so it becomes less tedious and more exciting. 
+      </p>
+    </div>
+    <div class="rightDiv">
+      <div class="wave">
+        <h1>Sapling</h1>
+        <hr>
+        <table>
+            <th>Mentor</th><th>Teammates</th>
+            <tr><td>names</td><td>team members names</td></tr>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F0O5D79cXMXYIOEqjmcsaFT%2FMarkup%3Fnode-id%3D0%253A1%26t%3D5q449nprttdnbOj1-1" allowfullscreen></iframe>
+            <tr>
+              <a href="https://www.figma.com/file/0O5D79cXMXYIOEqjmcsaFT/Markup?node-id=35%3A2&t=5q449nprttdnbOj1-1">Wireframe</a>
+            </tr>
+          </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

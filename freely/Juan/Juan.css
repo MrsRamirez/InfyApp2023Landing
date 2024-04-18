@@ -1,0 +1,93 @@
+html,body{
+  height: 99%;
+  width: 99%;
+  background-color:red;
+  
+}
+*{
+  box-sizing: border-box;
+}
+.banner{
+  z-index: 0;
+  background-color: rgba(red, green, blue, alpha);
+  border: 2px double #f70202;
+  box-shadow: 0px 3px 10px 5px #f28e02ee;
+  position: relative;
+  margin: 15px;
+  padding: 10px;
+  text-shadow:1px 1px black;
+  height:240px;
+}
+
+
+#profileicon{
+  z-index: 1;
+  position: absolute;
+  top: 50 px;
+  right:320px;
+  margin:20px;
+  width:60px;
+  border-radius: 50;
+}
+  
+.container{
+  background-image: linear-gradient(#fa0505, #ff9500);
+  border: 2px #b0cfcf solid;
+  position:relative;
+  top: 3px;
+  padding:10px;
+  margin:15px;
+  height:700px;
+  overflow: hidden;
+}
+.Leftdiv{
+  position:absolute;
+  left:5px;
+  width:50%;
+  
+}
+.Rightdiv{
+  position:absolute;
+  right:5px;
+  width:50%;
+}
+.wave{
+  border:darkgrey 1px solid;
+  color:whitesmoke;
+  text-align: center;
+  background-color: rgba(red, green, blue, alpha);
+  font-size:1em;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width:90%;
+  position:relative;
+  left: 5%;
+  transition: height 6s;
+  display:block;
+}
+h1{
+  font-size:0.9em;
+  color:#e0ecf5;
+}
+h2{
+  color:white;
+  font-size: 0.9em;
+}
+h3{
+  color:white;
+  font-size: 0.9em;
+}
+h4{
+  color:white;
+  font-size: 0.9em;
+}
+p{
+  color:white;
+  font-size: 0.9em;
+}
+.wave:hover{
+  height:90%;
+  top:1px;
+  x-index:1;
+}

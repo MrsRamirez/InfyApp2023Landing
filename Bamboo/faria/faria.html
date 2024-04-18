@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> InfyApp Challenge Role: designer </title>
+    <link href="faria.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+  </head>
+<body onload="brython()">
+  <a href="fariapytest.html"> TESTING PYTHON ON HTML </a>
+<script type="text/python">
+from browser import document
+from browser .widgets .dialog import InfoDialog 
+def click(ev):
+    InfoDialog("Hello", f"Hello, {document['zone'].value}!")
+#bind event 'click' on button to function echo 
+document["echo"].bind("click", click)
+      
+  </script>
+<input id="zone">
+<button id="echo">click !</button>
+  
+      <body>
+        <a href = "/index.html"> HOME </a>
+        <div class ="banner"> 
+        <img src="" id= "ProfileIcon">
+          <h1> Thomas A. Edison CTE Highschool </h1>
+          <h2> Infy App Challenge </h2>
+          <h4> Spring 2023 </h4>
+          <h3> Designer Landing Page </h3>
+        
+        </div>
+        <div class= "container"> 
+          <div class= "leftDiv"> 
+          <hr> 
+          <b> <h2> About me: </h2> </b>
+            <p> Hi! My name is Faria. I am a junior in Thomas A Edison CTE High school, currently studying programming and app/web development. I love fashion, and art. Among my team, I am an UI designer. My job is to come up with ideas on how to design our app, create style guides, etc. My responsibilities include communication, cooperation, and focus. Our app mainly focuses on mental health. This app brings awareness to different types of mental health that occurs specifically in the youth(ages 13-25). In addition, we try to present rescources and ways that may release emotions/stress for our users struggling with this issue.  </p>
+          </div> 
+          <div class= "rightDiv"> 
+            <div class = "wave"> 
+              <h1> </h1>
+              <table>
+						<th>Mentor</th>
+						<th>Teammates</th>
+						<tr>
+							<td>Sandeep Misra</td>
+							<td>Kevin</td>
+						</tr>
+						<tr>
+							<td>Mark Lohse-Miranda</td>
+							<td>Zainab</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>Shaila</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>Jacqueline</td>
+						</tr>
+						<tr>
+                </tr>
+                <tr>
+                
+                  <a href = "https://www.figma.com/proto/Csczy7hPg7hdJTukkYYId9/wireframe?node-id=6-312&scaling=scale-down&page-id=0%3A1"> Link to personal Figma Wireframe </a>
+                  <br>
+                  <a href = "https://www.figma.com/proto/usteA7L6ssRG1bTaTdNXlz/Untitled?node-id=14-17&scaling=min-zoom&page-id=14%3A13"> Link to personal Figma Styleguide </a>
+                          <br>
+                  <a href = "https://www.figma.com/proto/usteA7L6ssRG1bTaTdNXlz/Untitled?node-id=2%3A83&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"> Link to personal Figma Mockup </a>
+                </tr>
+              </table>
+            </div> 
+          </div> 
+        </div>
+      </body>
+</html>

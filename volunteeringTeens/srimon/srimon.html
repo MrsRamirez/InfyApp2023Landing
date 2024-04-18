@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Inffy App Challenge Role: Designer </title>
+		<link href="srimon.css" rel="stylesheet" type="text/css">
+		<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+		</script>
+	</head>
+	
+<body onload="brython()">
+<script type="text/python">
+from browser import document
+from browser.widgets.dialog import InfoDialog
+
+def click(ev):
+  InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to function echo
+document["echo"].bind("click", click)
+
+
+
+</script>
+	
+<input id="zone">
+<button id="echo">click !</button>
+	
+		<div class="banner">
+			<img src="srimon.jpeg" id="profileIcon">
+			<h1>Thomas A. Edison CTE High School</h1>
+			<h2>Inffy App Challenge</h2>
+			<h4>Spring 2023</h4>
+			<h3>Role's landing page</h3>
+		</div>
+		<div class="container">
+			<div class="leftDiv">
+				<h2>About me!</h2>
+				<hr>
+				<p> My name is <strong>Srimon Anida</strong> and I contribute to the design aspects of my team's designer and brainstorm ideas alongside. I go to Thomas A. Edison CTE High School in Queens, NY and I am currently a junior there. I'm being tought app design and althought I enjoy programming I'm also ineterested in psychology! I love expressing myself through art, but not in the drawing way. I do it through writing and digital art which I find creating websites a good use of. I don't really have much to say, but I am a leo, introverted, and very much a cat person. </p>
+
+<a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co">Back!</a>
+			</div>
+		
+			<div class="rightDiv">
+				<div class="wave">
+					<h1>Volunteering Teens!</h1>
+					<hr>
+					<table>
+						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzagW8cEMYZ7VeWirva74sU%2FUntitled%3Fnode-id%3D1%253A187%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A194%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+						<th>Mentor</th><th>Teammates</th>
+						<tr>
+							<td>Mentor name</td>
+							<td>Hamida</td>
+							<td>Christian</td>
+							<td>Sabina</td>
+							<td>John</td>
+							<td>Christian</td>
+							<td>Nabir</td>
+						</tr>
+						<tr>
+							<a href="https://www.figma.com/file/zagW8cEMYZ7VeWirva74sU/Untitled?node-id=0%3A1&t=Zfc8r3za6PWNFI1v-1">Link to figma wireframe!</a>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

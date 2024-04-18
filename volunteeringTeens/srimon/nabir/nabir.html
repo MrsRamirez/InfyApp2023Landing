@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Inffy App Challenge Role: Team Leader </title>
+	<link href="nabir.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+	</script>
+</head>
+
+<body onload="brython()">
+	<script type="text/python">
+from browser import document
+from browser.widgets.dialog import InfoDialog
+
+def click(ev):
+  InfoDialog("Hello", f"Hello, {document['zone'].value} !")
+
+# bind event 'click' on button to function echo
+document["echo"].bind("click", click)
+
+
+
+</script>
+
+	<input id="zone">
+	<button id="echo">Click</button>
+
+	<div class="banner">
+		<img src="srimon.jpeg" id="profileIcon">
+		<h1>Thomas A. Edison CTE High School</h1>
+		<h2>Inffy App Challenge</h2>
+		<h4>Spring 2023</h4>
+		<h3></h3>
+	</div>
+	<div class="container">
+		<div class="leftDiv">
+			<h2>About Me:</h2>
+			<hr>
+			<p> My name is <strong>Nabir Dehan</strong>. I am a junior at Thomas Edison High School, and the team lead for "The Volunteering Teens''. I am currently learning programming and app design and am very interested in game design. This project has been a great learning opportunity for me as I was able to push my skills past their limits, and collaborate successfully with my peers. In my free time, I enjoy cycling, gaming, and caring for my friends and family. I don't really like cats or dogs, but I find myself caring for my birds more often than anything else.  </p>
+
+			<a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co">Home</a>
+		</div>
+
+		<div class="rightDiv">
+			<div class="wave">
+				<h1>Volunteering Teens</h1>
+				<hr>
+				<table>
+					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+						src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgKNcW2EtXaZYQIngsJkmr9%2FPersonal-Figma%3Fnode-id%3D1-3%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
+					<tr>
+						<th>Mentor</th>
+						<th>Teammates</th>
+					</tr>
+					<tr>
+						<td>Mowoh Mejeck</td>
+						<td><a href="https://6879ae4f-91cb-4458-a9b4-fd128ac393fe.id.repl.co/hamida/hamida.html"> Hamida Tania</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Sam Thomas Nellikkan</td>
+						<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/srimon/srimon.html">Srimon
+								Anida</a> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/sabina/sabina.html">Sabina
+								Hussain</a> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/nabir/nabir.html"> Nabir
+								Dehan</a> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/john/john.html">John Okroh </a>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="https://infyappchallenge-pppython22-23-3.pppython22-23.repl.co/christian/christian.html">
+								Christian Martinez</a></td>
+					</tr>
+					<a href="https://www.figma.com/proto/gKNcW2EtXaZYQIngsJkmr9/Personal-Figma?node-id=1-3&starting-point-node-id=1%3A2">Link
+						to Figma Wireframe</a>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

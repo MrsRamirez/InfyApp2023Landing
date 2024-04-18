@@ -1,0 +1,52 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+	text-align: center;
+	
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://ggsc.s3.amazonaws.com/images/uploads/What_Can_We_Learn_from_the_Worlds_Most_Peaceful_Societies.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2e3e3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #3e3838;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #b66c2f;
+}
+
+.active {
+  background-color: #d9a087;
+}
+.text-center{
+	padding:200px;
+}
